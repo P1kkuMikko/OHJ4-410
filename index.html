@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="home">
+        <h1>#410 Kaverilista</h1>
+        <p>Valitse versio:</p>
+        <button onclick="showVersion1()">Versio 1</button>
+        <button onclick="showVersion2()">Versio 2</button>
+    </div>
+
+
+    <div id="version1" style="display: none;">
+        <h1><strong>Kaverilista</strong></h1>
+        <p>Ohjelma kysyy sinulta kymmenen kaverin nimet.</p>
+        <button onclick="Aloita()">Aloita</button>
+        <button onclick="kotiin()">Palaa alkuun</button>
+        <div id="kaverilista"></div>
+    </div>
+
+
+    <div id="version2" style="display: none;">
+        <h1><strong>Kaverilista</strong></h1>
+        <p>Anna kaverin nimi:</p>
+        <input type="text" id="kaveri2">
+        <button onclick="lisaaKaveri()">Lisää kaveri</button>
+        <button onclick="jarjestaKaverit()">Järjestä kaverit</button>
+        <button onclick="poistaKaveri()">Poista kaveri</button>
+
+        <ul id="kaverilista2"></ul>
+        <button onclick="kotiin()">Palaa alkuun</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

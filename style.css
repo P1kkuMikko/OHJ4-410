@@ -1,0 +1,58 @@
+body {
+    background-color: #10004a; 
+}
+
+p {
+    color: #ffffff; 
+    font-size: 30px; 
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    color: #ffffff; 
+    font-size: 45px; 
+    font-family: Arial, sans-serif; 
+}
+
+button {
+    background-color: #ff0000; 
+    color: white; 
+    border: none;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; 
+
+}
+input[type="text"] {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#kaverilista, #kaverilista2 {
+    background-color: #FFFFFF; 
+    width: 33%;
+}
+
+#kaverilista li, #kaverilista2 li {
+    color: #000000; 
+    font-size: 22px; 
+    font-family: Arial, sans-serif; 
+}
+
+#kaveri2 {
+    color: #000000; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    padding: 10px;
+    border: 1px solid #000000; 
+}
